@@ -1,0 +1,9 @@
+# 忽略文件不提交
+*.DS_Store
+*.log
+web.config
+.idea
+/node_modules/
+/build/
+app/aspnet_client
+app/lib
