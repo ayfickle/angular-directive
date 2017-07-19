@@ -1,15 +1,15 @@
 {
-  "name": "angular-directive",
-  "version": "1.0.0",
-  "description": "practice directives of angular",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "keywords": [
-    "angular",
-    "directives"
-  ],
-  "author": "liuying",
-  "license": "ISC"
+    "name": "angular-directive",
+    "version": "1.0.0",
+    "description": "practice directives of angular",
+    "main": "index.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "keywords": [
+        "angular",
+        "directives"
+    ],
+    "author": "liuying",
+    "license": "ISC"
 }
