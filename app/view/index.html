@@ -1,1 +1,31 @@
-<div>index</div>
+<div class="wrapper">
+	<header class="main-header">index</header>
+	<aside class="main-aside">
+		<!-- <tree-menu tree-model="menu" node-id="id" node-label="name" node-data="data"></tree-menu> -->
+		<section>
+			<ul>
+				<li ng-repeat="cat in data">
+					<a href="#">
+						<!-- icon -->
+						<i></i>
+						<span ng-bind="cat.name"></span>
+						<span class="pull-right-icon">
+							<i></i>
+						</span>
+					</a>
+					<ul>
+						<li ng-repeat="subcat in cat.children">
+							<a href="{{subcat.url}}" ly-href>
+								<i class="fa fa-circle-o"></i>
+								{{subcat.name}}
+							</a>
+						</li>
+					</ul>
+				</li>
+			</ul>
+		</section>
+	</aside>
+	<div class="main-content">
+		<div ui-view></div>
+	</div>
+</div>

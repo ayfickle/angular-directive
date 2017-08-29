@@ -51,8 +51,16 @@ require([
 
 	'app', 'route',
 
+	// comm
+	'service/common/core',
+	'service/common/httpx',
+	'service/common/ly',
+
 	// controller
-	'controller/index'
+	'controller/index',
+
+	// service
+	'service/index'
 
 ], function($, angular) {
 
