@@ -58,9 +58,15 @@ require([
 
 	// controller
 	'controller/index',
+	'controller/tabs',
 
 	// service
-	'service/index'
+	'service/index',
+
+	// directive
+	'directive/drag',
+
+	'component/tabs'
 
 ], function($, angular) {
 

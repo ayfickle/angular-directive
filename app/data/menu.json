@@ -3,7 +3,7 @@
 	"returnVal": [
 		{
 			"id": 1,
-			"name": "tree",
+			"name": "test",
 			"url": "",
 			"level": 1,
 			"parentId": 0,
@@ -11,51 +11,19 @@
 		},
 		{
 			"id": 2,
-			"name": "menu1",
-			"url": "",
-			"level": 1,
-			"parentId": 0,
-			"orderIndex": 2
+			"name": "tabs",
+			"url": "/test/tabs",
+			"level": 2,
+			"parentId": 1,
+			"orderIndex": 1
 		},
 		{
 			"id": 3,
-			"name": "tree-radio",
-			"url": "/tree/radio",
-			"level": 2,
-			"parentId": 1,
-			"orderIndex": 1
-		},
-		{
-			"id": 4,
-			"name": "tree-checkbox",
-			"url": "/tree/checkbox",
+			"name": "test",
+			"url": "/test/test",
 			"level": 2,
 			"parentId": 1,
 			"orderIndex": 2
-		},
-		{
-			"id": 5,
-			"name": "menu1-1",
-			"url": "/menu/1",
-			"level": 2,
-			"parentId": 2,
-			"orderIndex": 1
-		},
-		{
-			"id": 6,
-			"name": "menu1-2",
-			"url": "/menu/2",
-			"level": 2,
-			"parentId": 2,
-			"orderIndex": 2
-		},
-		{
-			"id": 7,
-			"name": "menu2",
-			"url": "",
-			"level": 1,
-			"parentId": 0,
-			"orderIndex": 3
 		}
 	]
 }

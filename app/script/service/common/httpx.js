@@ -9,7 +9,7 @@ define(['app'], function(app) {
         var base = '';
 
         var URL = {
-            'dev': ['http://10.38.2.92', ':8890/'],
+            'dev': ['http://10.38.1.190', ':2900/'],
             'pub': [],
             'prod': []
         };
